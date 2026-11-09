@@ -1,137 +1,125 @@
-# Awesome-Software-License-Entitlement-Management
+<div align="center">
 
-# Awesome Software License & Entitlement Management
+<img src="./assets/banner.svg" alt="Awesome Software License &amp; Entitlement Management Banner" width="100%" />
 
-> A curated list of top Software License and Entitlement Management platforms — both SaaS/Hosted commercial solutions and open-source alternatives for enforcing license terms, managing entitlements, and monetizing software.
-> 🌟 Star this repo if you find it useful! 🌟
+# 🔑 Awesome Software License & Entitlement Management 🛡️
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Software-License-Entitlement-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Software-License-Entitlement-Management?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Software-License-Entitlement-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Software-License-Entitlement-Management?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Software-License-Entitlement-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0 1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+<p align="center">
+  <strong>A definitive curated directory of top Software License and Entitlement Management platforms, software monetization engines, licensing APIs, and self-hosted open-source license servers.</strong>
+</p>
+
+<p align="center">
+  <sub>Enforce license terms ⚖️ • Manage dynamic user entitlements 🎫 • Power usage-based metering 📈 • Distribute signed software updates 📦</sub>
+</p>
+
+<p align="center">
+  🌟 <em>Star this repository if you find it valuable for your engineering or monetization stack!</em> 🌟
+</p>
+
+</div>
 
 ---
 
-## 📋 Table of Contents
+## 📑 Table of Contents
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Thales Sentinel](#thales-sentinel)
-  - [Revenera FlexNet Operations](#revenera-flexnet-operations)
-  - [Flexera One ITAM](#flexera-one-itam)
-  - [Snow Software (Flexera)](#snow-software-flexera)
-  - [LicenseSpring](#licensespring)
-  - [10Duke](#10duke)
-  - [Cryptlex](#cryptlex)
-  - [Reprise License Manager (RLM)](#reprise-license-manager-rlm)
-- [Open-Source Software](#-open-source-software)
-  - [Keygate](#keygate)
-  - [Labs64 NetLicensing](#labs64-netlicensing)
-  - [Licensier](#licensier)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+- [📊 Feature Comparison at a Glance](#-feature-comparison-at-a-glance)
+- [📈 Star History](#-star-history)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global Software License Management (SLM) and Software Monetization market is valued at approximately **$3.3B to $4.3B** and is projected to expand at a Compound Annual Growth Rate (**CAGR**) of **13.5%–16.2%** to exceed **$15B** by the early 2030s.
+
+The sector is **moderately to highly fragmented** rather than a "winner-take-all" monopoly: enterprise giants dominate legacy on-premise DRM and IT Asset Management (ITAM/SAM) compliance, while high-growth agile SaaS vendors and open-source frameworks thrive by catering to cloud-native, consumption-based metering, product-led growth (PLG), and developer-first licensing APIs.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Software License and Entitlement Management platforms. These are not open-source but are included as reference points for feature comparison.
+Below is a comparison of leading commercial and cloud-hosted Software License and Entitlement Management platforms, **sorted descending by company size (annual revenue / valuation)**.
 
-### Thales Sentinel
-**Type:** Software monetization and entitlement platform
-Thales Sentinel is a leading commercial platform for software licensing and entitlement management, used across manufacturing, AI, telecom, and MedTech. It supports **versionless entitlements** that reduce SKU explosions in ERP systems, allowing users to activate any product version within the entitlement quantity limit [citation:4]. Features include license fulfillment automation, batch entitlement creation, cloud-served and cloud-connected licenses, usage billing export to third-party engines, and end-user registration data collection for marketing and sales [citation:4]. Sentinel integrates with SAP, Salesforce, and other backend systems for a single source of truth [citation:15]. Supports hardware keys, software licenses, subscriptions, floating/concurrent licenses, and consumption-based models [citation:15].
-**Best for:** Software vendors and industrial automation companies needing enterprise-grade monetization with hybrid licensing (hardware + software), ERP integration, and usage-based billing.
-
-### Revenera FlexNet Operations
-**Type:** Software monetization and entitlement management
-Revenera (formerly Flexera Software) provides FlexNet Operations for entitlement and license management. The 2026.10 release enhanced entitlement search to allow lookup by any associated product part number (not just the primary SKU), improving license discovery for configurable products [citation:5]. The Device Details page now displays the **Line Item State** (Active/Inactive) alongside expiration status, clarifying license validity during audits and upgrades/downgrades [citation:5]. Part number mappings for line items are now visible per product, not just per line item [citation:5].
-**Best for:** Software producers needing mature entitlement management with detailed audit trails and multi-product package support.
-
-### Flexera One ITAM
-**Type:** IT asset management with license optimization
-Flexera One ITAM provides software license contract management as part of its broader ITAM platform, with a centralized contract repository, automated discovery, and license optimization for complex vendors like Microsoft, Oracle, and SAP . It extends to cloud license management (BYOL vs. PAYG visibility across AWS/Azure), SaaS management for shadow IT detection, and containerized workload tracking via the Spot acquisition . Audit readiness dashboards and ServiceNow/SAP integrations are included .
-**Best for:** Enterprises needing ITAM-driven license compliance and optimization across on-premises, cloud, SaaS, and containerized environments.
-
-### Snow Software (Flexera)
-**Type:** SAM with license assignment and compliance
-Snow Software (now part of Flexera) provides Software Asset Management with detailed license registration fields covering purchase details, maintenance/support periods, and assignment types (installations, users, organizations) [citation:14]. **License assignment tracking** can be enabled to audit changes, and quarantine management automatically releases licenses from inactive devices [citation:3]. Compliance calculations exclude quarantined devices to prevent over-licensing [citation:3].
-**Best for:** Organizations needing granular SAM with license assignment auditing and automated license reclamation from inactive devices.
-
-### LicenseSpring
-**Type:** Software licensing with consumption-based models
-LicenseSpring provides a software licensing platform with SDKs for C++, C#/.NET, Swift, Objective-C, and Linux. It introduced **consumption-based licensing** where a license key has a set number of "consumptions" that are decremented with each operation, after which the key becomes invalid [citation:6]. Useful for controlling resource-intensive operations like rendering. Supports feature licensing and maintenance plans across all SDKs [citation:6].
-**Best for:** ISVs needing flexible licensing models including per-operation consumption, with broad language SDK support.
-
-### 10Duke
-**Type:** Identity-based licensing and entitlement management
-10Duke provides licensing that combines identity with entitlement management. The Causeway case study highlights support for subscriptions, floating licenses, and custom packages, with **automated provisioning and entitlements**, SSO and federated identity integration, and real-time analytics [citation:9]. It supports complex licensing models for both online and desktop applications, with APIs for product activation and tailored packages [citation:9].
-**Best for:** B2B software vendors needing identity-integrated licensing with enterprise SSO and flexible entitlement models.
-
-### Cryptlex
-**Type:** Software licensing and activation platform
-Cryptlex provides license activation, floating licenses (LexFloatServer/LexFloatClient), and offline floating license support with configurable lease durations [citation:10]. Features include reseller workflows, organization management, 2FA, OIDC authentication, and EU data region support [citation:10]. Activation export includes user and organization data, and license deactivation tracking is available [citation:10].
-**Best for:** ISVs needing floating licenses with offline support, reseller management, and EU data residency options.
-
-### Reprise License Manager (RLM)
-**Type:** License manager with transparent reporting
-RLM is a client-server license manager known for being **open and transparent**: the report log format is published, license terms are embedded in the license file itself, and server selection is automatic without custom programming [citation:8]. Licenses can be created via `rlmsign` utility, the `rlm_sign_license()` API, or **RLM Internet Activation** for online retrieval [citation:8]. Activation Pro enables customers to acquire licenses via activation key from a website [citation:8].
-**Best for:** ISVs wanting a straightforward, transparent license manager with published report formats and flexible license generation options.
+| 🏢 Platform | 💰 Company Size (Valuation / Revenue) | 🏷️ Starting Price | 🎁 Free Tier / Trial Limit | 🧩 Core Capabilities & Strengths |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Thales Sentinel](https://cpl.thalesgroup.com/software-monetization)** 🛡️ | **~$54B Market Cap** *(Parent: Thales Group, €20.6B+ / ~$22B Rev)* | **Custom quote** *(Enterprise tier contracts)* | **30-day free trial** *(Includes Sentinel LDK / Cloud evaluation kit upon request)* | Enterprise-grade software monetization, versionless entitlements, hardware keys (dongles), floating tokens, and ERP integration (SAP, Salesforce). |
+| **[Flexera One ITAM](https://www.flexera.com/products/flexera-one/itam)** 🏢 | **~$2.9B Valuation** *(Parent: Flexera / Thoma Bravo, $700M+ ARR)* | **Custom quote** *(Entry modules start at ~$50,000/yr via AWS Marketplace)* | **Interactive guided demo** *(Scoped proof-of-concept POC trial upon request)* | Comprehensive IT Asset Management (ITAM), SaaS shadow IT discovery, BYOL cloud license optimization, and audit compliance for Oracle/SAP/Microsoft. |
+| **[Revenera FlexNet](https://www.revenera.com/)** ⚙️ | **~$2.9B Parent Valuation** *(Division of Flexera, $700M+ ARR)* | **Custom quote** *(Baseline implementations start at ~$10,000/yr)* | **Custom enterprise trial** *(Evaluation sandbox provided upon qualification)* | Industry standard for software vendors: FlexNet Operations & Licensing, SKU explosion prevention, product line-item auditing, and package lifecycle controls. |
+| **[Snow Software](https://www.flexera.com/products/snow-software)** ❄️ | **$100M+ ARR** *(Acquired by Flexera / Thoma Bravo)* | **Custom quote** *(Tailored to endpoint/server estate volume)* | **Interactive live demo** *(Trial evaluation available through Flexera sales)* | Software Asset Management (SAM) with automated quarantine management, idle license reclamation, compliance risk calculation, and multi-cloud visibility. |
+| **[Reprise License Manager (RLM)](https://www.reprisesoftware.com/)** 📜 | **~$10M–$25M Est.** *(Subsidiary of FOG Software / Constellation)* | **Custom quote** *(Priced by vendor revenue tiers of protected software)* | **Free evaluation license** *(Full-featured developer bundle available upon request)* | Transparent client-server licensing, published log formats, embedded license signatures (`rlmsign`), and RLM Activation Pro internet retrieval. |
+| **[10Duke](https://www.10duke.com/)** 👤 | **~$2.1M ARR** *(Private, scale-up)* | **$199 / month** *(Single-tenant baseline)* | **30-day free trial** *(Full access to identity-based licensing engine)* | Identity-integrated licensing, federated SSO integration, fast entitlement provisioning, desktop and web license orchestration, and real-time analytics. |
+| **[LicenseSpring](https://licensespring.com/)** 🌸 | **~$1.3M ARR** *(Private, bootstrapped)* | **$199 / month** *(Business Starter flat rate)* | **Free tier forever** *(Up to 1 product, 1 dev environment, 1,000 API requests/month; or 14-day trial)* | Native consumption-based licensing, quota decrementing, floating license server, and cross-platform SDKs (C++, C#/.NET, Python, Swift, Go). |
+| **[Cryptlex](https://cryptlex.com/)** 🔐 | **~$300K–$1M ARR** *(Private, bootstrapped)* | **$100 / month** *(Starter tier flat rate)* | **Free tier forever** *(Up to 10 activations, 1 product, 1 admin; plus 30-day free trial for paid tiers)* | Node-locked and floating licenses with offline lease support, webhooks, reseller management, customer portal, and EU-hosted cloud data regions. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Software License and Entitlement Management tools. The open-source ecosystem is **limited but growing**, anchored by Keygate as the most comprehensive self-hosted alternative.
+Self-hosted, transparent, and community-driven license managers and entitlement servers, **sorted descending by GitHub star count**.
 
-### Keygate
-**Stack:** Go / PostgreSQL / S3 | **License:** Open Source
-Keygate is the most comprehensive open-source software license management platform, explicitly positioned as a **self-hosted alternative to Keygen, Cryptlex, and LicenseSpring** [citation:11]. It handles subscriptions, perpetual licenses, trials, and **floating (concurrent) licenses** with per-device/per-user activation limits and atomic enforcement (no double-counting under retry). License keys are hashed with SHA-256 and encrypted at rest. Features include:
-- **Software distribution** with signed updates for Sparkle (macOS), Velopack (Windows), and Tauri, with per-product Ed25519 signing keys and license-gated download URLs [citation:11]
-- **Usage metering** with atomic quota enforcement at the database level, threshold warnings via webhooks, and hourly/daily/monthly/yearly cycles [citation:11]
-- **Stripe integration** end-to-end with webhook + success-page + periodic sync reliability, proration on upgrades, dunning emails, and self-serve portal [citation:11]
-- **Public SDK endpoints** (activate/verify/deactivate/usage/download) that take `license_key` directly—no embedded API keys to leak [citation:11]
-
-**Best for:** Indie developers, SaaS companies, and enterprise vendors wanting a production-ready, self-hosted license server with full control over customer data, Stripe billing, and floating licenses, without per-seat platform fees.
-
-### Labs64 NetLicensing
-**Stack:** Java / Docker | **License:** Apache-2.0 (Gateway)
-Labs64 NetLicensing is an open-source licensing and entitlement management platform. Its **eCommerce Gateway** is open-source (Apache-2.0) and integrates with platforms like FastSpring, MyCommerce, PrestaShop, and SendOwl to automatically create customers, licenses, and related data in NetLicensing after a successful transaction [citation:7]. The gateway is available as a Docker image and centrally hosted instance [citation:7]. NetLicensing supports later entitlement validation for purchased licenses [citation:7].
-**Best for:** E-commerce-driven software vendors wanting open-source license acquisition automation integrated with existing storefronts.
-
-### Licensier
-**Stack:** (Check repository) | **License:** Open Source
-Licensier is an open-source licensing platform focused on software vendors who need to manage license keys, activations, and entitlements. (Search results were limited; verify current maintenance and feature coverage before adoption.)
-**Best for:** Teams exploring an open-source licensing platform as an alternative to commercial solutions, with careful evaluation of maturity.
+| 📦 Repository & Project | 🌟 GitHub Stars | 💻 Tech Stack | 📜 License | 🎯 Highlights & Primary Use Case |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Keygen API](https://github.com/keygen-sh/keygen-api)** 🔑 | [![Stars](https://img.shields.io/github/stars/keygen-sh/keygen-api?style=social&color=white)](https://github.com/keygen-sh/keygen-api/stargazers) | Ruby / Rails / PostgreSQL / Redis | Fair Source / EE | High-scale, developer-centric licensing and software distribution engine. Supports cryptographic offline licensing, floating seats, and automated binary release updates. |
+| **[Cedar License Manager](https://github.com/cedar-v/license-manager)** 🌲 | [![Stars](https://img.shields.io/github/stars/cedar-v/license-manager?style=social&color=white)](https://github.com/cedar-v/license-manager/stargazers) | Go / Vue.js / SQLite | Apache-2.0 | Independent license generation, distribution, and validation system designed for IoT devices and enterprise software with hardware binding. |
+| **[Keygate](https://github.com/tabloy/keygate)** 🚪 | [![Stars](https://img.shields.io/github/stars/tabloy/keygate?style=social&color=white)](https://github.com/tabloy/keygate/stargazers) | Go / PostgreSQL / S3 | MIT | Modern, self-hosted alternative to Keygen and Cryptlex. Atomic usage metering, floating seats, Stripe billing synchronization, and Ed25519 signed auto-updates. |
+| **[dnauck License.Manager](https://github.com/dnauck/License.Manager)** 🎛️ | [![Stars](https://img.shields.io/github/stars/dnauck/License.Manager?style=social&color=white)](https://github.com/dnauck/License.Manager/stargazers) | C# / ServiceStack / AngularJS | MIT | Web-based management console for Portable.Licensing. Provides cryptographic key generation and validation for .NET desktop and server applications. |
+| **[Laravel License Server](https://github.com/laravel-ready/license-server)** ⚡ | [![Stars](https://img.shields.io/github/stars/laravel-ready/license-server?style=social&color=white)](https://github.com/laravel-ready/license-server/stargazers) | PHP / Laravel | MIT | Turnkey licensing server package for Laravel applications. Manage licenses, domain activations, and client device validation out of the box. |
+| **[Software License Manager](https://github.com/Arsenal21/software-license-manager)** 🧩 | [![Stars](https://img.shields.io/github/stars/Arsenal21/software-license-manager?style=social&color=white)](https://github.com/Arsenal21/software-license-manager/stargazers) | PHP / WordPress | GPL-2.0 | Proven license manager serving thousands of WordPress and PHP developers. Manage activations, expirations, and remote client verification via REST API. |
+| **[PHP License Server](https://github.com/cubiclesoft/php-license-server)** 🐘 | [![Stars](https://img.shields.io/github/stars/cubiclesoft/php-license-server?style=social&color=white)](https://github.com/cubiclesoft/php-license-server/stargazers) | PHP / CLI Server | MIT / LGPL | Lightweight, high-performance license server system service for tracking digital product keys, major version locks, and customer activations. |
+| **[License Mate](https://github.com/yjpictures/license-mate)** 🧉 | [![Stars](https://img.shields.io/github/stars/yjpictures/license-mate?style=social&color=white)](https://github.com/yjpictures/license-mate/stargazers) | Python / Flask / MongoDB / Docker | MIT | Docker-deployable REST API microservice providing simple software license generation, validation, and expiration management. |
+| **[Labs64 NetLicensing Gateway](https://github.com/Labs64/NetLicensing-Gateway)** 🌐 | [![Stars](https://img.shields.io/github/stars/Labs64/NetLicensing-Gateway?style=social&color=white)](https://github.com/Labs64/NetLicensing-Gateway/stargazers) | Java / Docker | Apache-2.0 | Automated e-commerce licensing gateway connecting NetLicensing with FastSpring, PrestaShop, MyCommerce, and SendOwl for automated license issuance. |
 
 ---
 
-## 📊 Comparison at a Glance
+## 📊 Feature Comparison at a Glance
 
-| Software | License | Stack | Floating Licenses | Usage Metering | Stripe/Commerce | Self-Hosted | Best For |
-|----------|---------|-------|-------------------|----------------|------------------|-------------|----------|
-| **Thales Sentinel** | Proprietary | Cloud/On-prem | ✅ | ✅ (Billing export) | (ERP/CRM) | (On-prem) | Enterprise monetization |
-| **Revenera** | Proprietary | Cloud/On-prem | (Check) | (Check) | (ERP) | (On-prem) | Entitlement audit trails |
-| **Flexera One** | Proprietary | Cloud | (ITAM) | (Cloud spend) | ❌ | ❌ | ITAM license optimization |
-| **Snow Software** | Proprietary | Cloud | (SAM) | (Metering) | ❌ | ❌ | SAM + license reclamation |
-| **LicenseSpring** | Proprietary | Cloud | (SDKs) | ✅ Consumption | (Check) | ❌ | Consumption-based licensing |
-| **10Duke** | Proprietary | Cloud | ✅ | (Usage insights) | (Check) | ❌ | Identity-based licensing |
-| **Cryptlex** | Proprietary | Cloud/On-prem | ✅ Offline | (Check) | (Reseller) | (On-prem) | Floating + offline licenses |
-| **Keygate** | Open Source | Go/Postgres | ✅ Concurrent | ✅ Atomic quotas | ✅ Stripe native | ✅ | Self-hosted license server |
-| **NetLicensing** | Apache-2.0 | Java/Docker | (Check) | (Check) | ✅ Gateway | ✅ | E-commerce license automation |
+| 🛠️ Software Platform | ⚖️ Model / License | 💻 Primary Stack | 🔄 Floating / Concurrent | 📈 Usage Metering | 💳 Billing & Payment Sync | 🏠 Self-Hosted Available | 🎯 Primary Sweet Spot |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
+| **Thales Sentinel** | Commercial | Cloud / On-prem | ✅ | ✅ | ERP / CRM integrations | ✅ *(On-prem)* | Enterprise hybrid hardware/software monetization |
+| **Flexera One ITAM** | Commercial | Cloud | *(ITAM)* | *(Cloud spend)* | ❌ | ❌ | Multi-cloud ITAM compliance & contract optimization |
+| **Revenera FlexNet** | Commercial | Cloud / On-prem | ✅ | ✅ | ERP integrations | ✅ *(On-prem)* | Enterprise entitlement auditing & SKU management |
+| **Snow Software** | Commercial | Cloud / On-prem | *(SAM)* | ✅ | ❌ | ❌ | Automated license reclamation & audit readiness |
+| **Reprise (RLM)** | Commercial | Client-Server / C | ✅ | ✅ | ❌ | ✅ *(On-prem)* | ISV transparent client-server licensing |
+| **10Duke** | Commercial | Cloud | ✅ | ✅ | Stripe / Payment APIs | ❌ | Identity-integrated licensing & enterprise SSO |
+| **LicenseSpring** | Commercial | Cloud | ✅ | ✅ *(Consumption)* | Stripe / Webhooks | ❌ | Consumption-based pay-per-operation models |
+| **Cryptlex** | Commercial | Cloud / Hybrid | ✅ *(Offline)* | ✅ | Stripe / Resellers | ✅ *(On-prem)* | Offline leases & floating seat activation |
+| **Keygen API** | Fair Source / EE | Ruby / Postgres | ✅ | ✅ | Stripe native | ✅ | Developer-first licensing & auto-updating binaries |
+| **Cedar License Mgr** | Apache-2.0 | Go / Vue | ✅ | ❌ | ❌ | ✅ | IoT device licensing with hardware ID binding |
+| **Keygate** | MIT | Go / Postgres | ✅ | ✅ *(Atomic)* | Stripe native | ✅ | All-in-one self-hosted server with Stripe sync |
+| **NetLicensing Gateway**| Apache-2.0 | Java / Docker | *(Backend)*| *(Backend)* | E-commerce Gateways | ✅ | E-commerce automated license fulfillment |
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Software-License-Entitlement-Management&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Software-License-Entitlement-Management&type=date&legend=top-left)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Software License or Entitlement Management tool that should be listed here, please open a pull request with:
+Contributions are warmly encouraged! If you know of an outstanding open-source license server or commercial entitlement platform that should be included:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem for **software license enforcement** is much smaller than for IT asset management (SAM). **Keygate** is currently the most complete open-source option, covering license activation, floating licenses, Stripe billing, usage metering, and signed software distribution in a single self-hosted server [citation:11]. **Labs64 NetLicensing** fills a niche for e-commerce-driven license acquisition via its open-source Gateway [citation:7]. Commercial platforms like Thales Sentinel and Revenera remain far more capable for enterprise-scale monetization with ERP/CRM integration, hardware key support, and advanced entitlement models [citation:4][citation:5].
+1. 🍴 Fork the repository.
+2. 🌿 Create your feature branch (`git checkout -b feature/cool-license-tool`).
+3. ✍️ Add the project details adhering to the existing tabular format and criteria.
+4. 🚀 Submit a Pull Request with a short summary describing why the tool stands out.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This repository and curated list are released under the [CC0 1.0 Universal (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/) license. All product and company names are trademarks™ or registered® trademarks of their respective holders.

@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Glowing filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes floatParticle {
+      0%, 100% { transform: translateY(0px) scale(1); opacity: 0.3; }
+      50% { transform: translateY(-20px) scale(1.15); opacity: 0.75; }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.4; transform: scale(1); }
+      50% { opacity: 0.8; transform: scale(1.05); }
+    }
+    @keyframes dashFlow {
+      0% { stroke-dashoffset: 200; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes waveFlow {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-400px); }
+    }
+    .particle { animation: floatParticle 6s ease-in-out infinite; }
+    .pulse { animation: pulseGlow 4s ease-in-out infinite; transform-origin: center; }
+    .flow-line { stroke-dasharray: 8 6; animation: dashFlow 12s linear infinite; }
+    .wave-line { animation: waveFlow 20s linear infinite; }
+    .title-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 800; }
+    .sub-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 400; }
+    .mono-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+  </style>
+
+  <!-- Deep Tech Background Canvas -->
+  <rect width="1200" height="360" fill="url(#bgGrad)" />
+
+  <!-- Dynamic Glowing Orbs in the Background (Behind all text) -->
+  <circle cx="200" cy="180" r="180" fill="#3b82f6" opacity="0.12" filter="url(#softGlow)" class="pulse" style="animation-delay: 0s;" />
+  <circle cx="980" cy="160" r="190" fill="#8b5cf6" opacity="0.13" filter="url(#softGlow)" class="pulse" style="animation-delay: 2s;" />
+  <circle cx="600" cy="300" r="150" fill="#ec4899" opacity="0.08" filter="url(#softGlow)" class="pulse" style="animation-delay: 1s;" />
+
+  <!-- Animated Subtle Background Grid Pattern -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="0.8">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Flowing Dynamic Waves in lower background -->
+  <g opacity="0.25">
+    <path class="flow-line" d="M -50 290 Q 250 250 550 290 T 1150 290 T 1750 290" fill="none" stroke="#60a5fa" stroke-width="2" />
+    <path class="flow-line" d="M -50 310 Q 300 350 650 310 T 1250 310 T 1850 310" fill="none" stroke="#c084fc" stroke-width="1.5" style="animation-direction: reverse; animation-duration: 16s;" />
+  </g>
+
+  <!-- Floating Dynamic Particle Nodes in background -->
+  <g>
+    <circle cx="120" cy="80" r="4" fill="#60a5fa" class="particle" style="animation-duration: 5s;" />
+    <circle cx="180" cy="280" r="5" fill="#a78bfa" class="particle" style="animation-duration: 7s; animation-delay: 1s;" />
+    <circle cx="340" cy="90" r="3" fill="#38bdf8" class="particle" style="animation-duration: 4.5s; animation-delay: 0.5s;" />
+    <circle cx="860" cy="70" r="4" fill="#f472b6" class="particle" style="animation-duration: 6s; animation-delay: 1.5s;" />
+    <circle cx="1060" cy="110" r="5" fill="#818cf8" class="particle" style="animation-duration: 5.5s;" />
+    <circle cx="1110" cy="270" r="4" fill="#34d399" class="particle" style="animation-duration: 6.5s; animation-delay: 2s;" />
+    <circle cx="990" cy="300" r="3.5" fill="#60a5fa" class="particle" style="animation-duration: 8s;" />
+  </g>
+
+  <!-- Left Side Visual: Floating Encrypted License Shield & Key (Background / Side element) -->
+  <g transform="translate(60, 110)">
+    <!-- Outer Shield / Token Border -->
+    <path d="M 50 10 Q 90 0 110 25 Q 110 90 50 130 Q -10 90 -10 25 Q 10 0 50 10 Z" fill="url(#shieldGrad)" stroke="#60a5fa" stroke-width="1.5" opacity="0.85" filter="url(#glow)" />
+    <!-- Inner Key Symbol -->
+    <path d="M 50 40 A 12 12 0 1 0 50 64 A 12 12 0 1 0 50 40 M 50 64 L 50 100 M 50 78 L 62 78 M 50 90 L 58 90" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Right Side Visual: Dynamic Entitlement Analytics Nodes -->
+  <g transform="translate(1010, 105)" opacity="0.9">
+    <rect x="0" y="0" width="130" height="150" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    <circle cx="65" cy="40" r="22" fill="#3b82f6" opacity="0.2" />
+    <circle cx="65" cy="40" r="14" fill="#8b5cf6" opacity="0.4" />
+    <!-- Entitlement Bar Chart simulation -->
+    <rect x="22" y="105" width="12" height="25" rx="3" fill="#3b82f6" opacity="0.8" />
+    <rect x="42" y="90" width="12" height="40" rx="3" fill="#8b5cf6" opacity="0.9" />
+    <rect x="62" y="75" width="12" height="55" rx="3" fill="#ec4899" />
+    <rect x="82" y="98" width="12" height="32" rx="3" fill="#10b981" opacity="0.85" />
+    <!-- Checkmark Badge -->
+    <circle cx="65" cy="40" r="7" fill="#10b981" />
+  </g>
+
+  <!-- FOREGROUND: Header Brand & Title (Strictly foreground, always crisp and legible) -->
+  <g id="foreground-content">
+    <!-- Top Pill / Category Tag -->
+    <g transform="translate(600, 52)">
+      <rect x="-190" y="-16" width="380" height="32" rx="16" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2" opacity="0.95" />
+      <circle cx="-168" cy="0" r="5" fill="#10b981" class="pulse" />
+      <text x="-152" y="4" fill="#93c5fd" font-size="12" font-weight="600" class="sub-text" letter-spacing="1.5">ENTERPRISE MONETIZATION &amp; ITAM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="135" text-anchor="middle" class="title-text" font-size="44" fill="#ffffff" letter-spacing="-0.5">
+      Awesome Software License
+    </text>
+    <text x="600" y="185" text-anchor="middle" class="title-text" font-size="44" fill="url(#accentGrad)" letter-spacing="-0.5">
+      &amp; Entitlement Management
+    </text>
+
+    <!-- Subtitle / Meta Description -->
+    <text x="600" y="235" text-anchor="middle" class="sub-text" font-size="16" fill="#94a3b8" letter-spacing="0.2">
+      Curated directory of SaaS &amp; Open-Source tools for license keys, floating activations,
+    </text>
+    <text x="600" y="260" text-anchor="middle" class="sub-text" font-size="16" fill="#94a3b8" letter-spacing="0.2">
+      usage metering, cryptographic entitlement enforcement, and software monetization.
+    </text>
+
+    <!-- Interactive Badges Pill Row -->
+    <g transform="translate(600, 305)">
+      <!-- Pill 1 -->
+      <g transform="translate(-230, 0)">
+        <rect x="-65" y="-13" width="130" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="0" y="4" text-anchor="middle" fill="#38bdf8" font-size="11" font-weight="600" class="sub-text">⚡ Floating Licenses</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(-75, 0)">
+        <rect x="-70" y="-13" width="140" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="0" y="4" text-anchor="middle" fill="#a78bfa" font-size="11" font-weight="600" class="sub-text">📊 Usage Metering</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(85, 0)">
+        <rect x="-70" y="-13" width="140" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="0" y="4" text-anchor="middle" fill="#f472b6" font-size="11" font-weight="600" class="sub-text">🛡️ DRM &amp; Compliance</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(235, 0)">
+        <rect x="-60" y="-13" width="120" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="0" y="4" text-anchor="middle" fill="#34d399" font-size="11" font-weight="600" class="sub-text">🔓 Open-Source</text>
+      </g>
+    </g>
+  </g>
+</svg>
