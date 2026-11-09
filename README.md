@@ -36,6 +36,7 @@
 - [🟩 Open-Source Software](#-open-source-software)
 - [📊 Feature Comparison at a Glance](#-feature-comparison-at-a-glance)
 - [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
@@ -106,6 +107,25 @@ Self-hosted, transparent, and community-driven license managers and entitlement 
 ## 📈 Star History
 
 [![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Software-License-Entitlement-Management&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Software-License-Entitlement-Management&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting and supporting **Awesome Software License & Entitlement Management**! 
+
+If this curated guide has saved you time, helped you evaluate platforms, or supported your project's monetization architecture, please consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork the repo** to contribute additions, fixes, or updates.
+- 📢 **Share with colleagues, teammates, and developers** building software licensing or entitlement workflows.
+- ☕ **Buy a coffee / Sponsor the project:** Support ongoing maintenance and curation on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" />
+  </a>
+</p>
 
 ---
 
