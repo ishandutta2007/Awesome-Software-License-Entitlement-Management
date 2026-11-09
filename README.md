@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Software-License-Entitlement-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Software-License-Entitlement-Management?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Software-License-Entitlement-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Software-License-Entitlement-Management?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Software-License-Entitlement-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Software-License-Entitlement-Management?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Software-License-Entitlement-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0 1.0" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -69,9 +69,9 @@ Below is a comparison of leading commercial and cloud-hosted Software License an
 
 ## 🟩 Open-Source Software
 
-Self-hosted, transparent, and community-driven license managers and entitlement servers, **sorted descending by GitHub star count**.
+Self-hosted, transparent, and community-driven license managers and entitlement servers, **sorted descending by GitHub Stars_Count**.
 
-| 📦 Repository & Project | 🌟 GitHub Stars | 💻 Tech Stack | 📜 License | 🎯 Highlights & Primary Use Case |
+| 📦 Repository & Project | 🌟 GitHub_Stars | 💻 Tech Stack | 📜 License | 🎯 Highlights & Primary Use Case |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Keygen API](https://github.com/keygen-sh/keygen-api)** 🔑 | [![Stars](https://img.shields.io/github/stars/keygen-sh/keygen-api?style=social&color=white)](https://github.com/keygen-sh/keygen-api/stargazers) | Ruby / Rails / PostgreSQL / Redis | Fair Source / EE | High-scale, developer-centric licensing and software distribution engine. Supports cryptographic offline licensing, floating seats, and automated binary release updates. |
 | **[Cedar License Manager](https://github.com/cedar-v/license-manager)** 🌲 | [![Stars](https://img.shields.io/github/stars/cedar-v/license-manager?style=social&color=white)](https://github.com/cedar-v/license-manager/stargazers) | Go / Vue.js / SQLite | Apache-2.0 | Independent license generation, distribution, and validation system designed for IoT devices and enterprise software with hardware binding. |
